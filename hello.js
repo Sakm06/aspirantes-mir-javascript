@@ -1,6 +1,15 @@
 // escribe la función hola acá
 
 // código de prueba
-console.log(hola("Pedro")) // "Hola Pedro!"
-console.log(hola("Juan")) // "Hola Juan!"
-console.log(hola("")) // "Hola !"
+// console.log('Hola '+("Pedro!")) // "Hola Pedro!"
+// console.log('Hola '+("Juan!")) // "Hola Juan!"
+// console.log('Hola '+("!")) // "Hola!" 
+
+function Hello(name){
+    console.log("Hola "+name+"!");
+}
+Hello("Pedro");
+Hello("Juan");
+Hello("");
+
+
