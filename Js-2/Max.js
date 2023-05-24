@@ -1,4 +1,4 @@
-const numeros = [13, 14, 15, 16, 17, 18];
+const numeros = [12, 13, 14, 15];
 
 let max = 0;
 
